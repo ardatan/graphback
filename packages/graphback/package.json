@@ -32,32 +32,32 @@
     "node": ">=10.15.3"
   },
   "devDependencies": {
-    "@types/graphql": "14.2.3",
-    "@types/node": "12.12.12",
+    "@types/graphql": "14.5.0",
+    "@types/node": "12.20.55",
     "@types/pino": "5.20.0",
     "ava": "2.4.0",
-    "graphql": "14.5.8",
-    "rimraf": "3.0.0",
-    "ts-node": "8.5.2",
+    "graphql": "14.7.0",
+    "rimraf": "3.0.2",
+    "ts-node": "8.10.2",
     "tslint": "5.20.1",
-    "tsutils": "3.17.1",
-    "typescript": "3.7.2"
+    "tsutils": "3.21.0",
+    "typescript": "3.9.10"
   },
   "license": "Apache-2.0",
   "dependencies": {
-    "@graphback/codegen-client": "^0.10.0-rc2",
-    "@graphback/codegen-resolvers": "^0.10.0-rc2",
-    "@graphback/codegen-schema": "^0.10.0-rc2",
-    "@graphback/core": "^0.10.0-rc2",
-    "@graphback/runtime": "^0.10.0-rc2",
-    "@graphql-inspector/core": "1.26.0",
-    "glob": "7.1.6",
-    "graphql-subscriptions": "1.1.0",
-    "knex": "0.20.2",
-    "pg": "7.14.0",
-    "pino": "5.14.0",
-    "sqlite3": "4.1.0",
-    "tslib": "1.10.0"
+    "@graphback/codegen-client": "^0.16.0",
+    "@graphback/codegen-resolvers": "^0.12.0",
+    "@graphback/codegen-schema": "^0.16.0",
+    "@graphback/core": "^0.16.0",
+    "@graphback/runtime": "^0.15.0",
+    "@graphql-inspector/core": "1.30.4",
+    "glob": "7.2.3",
+    "graphql-subscriptions": "1.2.1",
+    "knex": "0.95.15",
+    "pg": "7.18.2",
+    "pino": "5.17.0",
+    "sqlite3": "4.2.0",
+    "tslib": "1.14.1"
   },
   "peerDependencies": {
     "graphql": "^0.12.0 || ^0.13.0 || ^14.0.0"

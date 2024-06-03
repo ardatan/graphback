@@ -5,17 +5,17 @@
   "description": "Mono repository for Graphback project",
   "main": "index.js",
   "devDependencies": {
-    "del-cli": "3.0.0",
+    "del-cli": "3.0.1",
     "lerna": "3.19.0",
-    "npm-run-all": "4.1.5",
+    "npm-run-all2": "5.0.0",
     "nyc": "14.1.1",
-    "replace": "1.1.1",
-    "ts-node": "8.5.2",
+    "replace": "1.2.2",
+    "ts-node": "8.10.2",
     "tslint": "5.20.1",
     "tslint-config-prettier": "1.18.0",
     "tslint-microsoft-contrib": "6.2.0",
-    "typedoc": "0.15.3",
-    "typescript": "3.7.2"
+    "typedoc": "0.25.13",
+    "typescript": "3.9.10"
   },
   "scripts": {
     "test": "nyc lerna run test",
